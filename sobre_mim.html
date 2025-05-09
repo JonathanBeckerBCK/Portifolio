@@ -6,28 +6,35 @@
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kranky&family=Playwrite+MX+Guides&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">       
+       
+       <style>
 
-    <style>
+
 
         body {
 
             background:#FFFBF5;
-            font-family: "Playwrite MX Guides", cursive;
-            font-family: "Kranky", serif;
-
+            font-family: "Rowdies", cursive;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            
         }
 
         #davi{
-
+            
+            display:flex;           /*  centralizador  */
+            justify-content: center; /*  centralizador  */
             color:#9e8969;
+            
         }
 
         ul{
             display: flex;
             flex-direction: row;
-            padding: 20px;
+            padding: 12px;
             justify-content: center;
             list-style-type: none;
             background:#ddc5a8 ;
@@ -41,7 +48,7 @@
 
         }
 
-        ul p{
+        ul li a{
 
             text-decoration:darkcyan ;
             color: white;
@@ -49,28 +56,53 @@
             padding: 10px;
             border-radius: 10px;
             display:block;
-            transition: all ease 1.5;
-        
+            transition:all ease 1.5;
+
         }
 
         ul li a:hover {
             background-color:#d3ad7f;
 
+
         }
 
-    </style>
+        #container {
+
+        background-color: #FFFBF5;
+        padding: 0% 20% 0% 20%;  /*sentido horario como se fosse 00:00, 06:00, 12:00 e denovo 00:00 */
+        color: #866e4a;
+            
+        }
+
+
+
+        </style>
+
+
+
+
+
 
 </head>
 <body>
     
-
-    <h1 id="davi">Sobre Mim</h1>
+    <h1 id="davi">Portifólio -- Sobre mim</h1>
 
     <ul>
-        <p>Meu nome é Jonathan, estudo no IFPR e faço o curso de TDS no processo de aprender CSS e HTML</p>
+
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Sobre_mim.html">Sobre mim</a></li>
+        <li><a href="">Alguma coisa</a></li>
+        <li><a href="">bananas e macacos</a></li>
     </ul>
 
+        
+    <h3 id="container">Meu nome é Jonathan Becker, atualmente tenho 17 anos, mas logo logo faço 18 anitos, falo Espanhol e  estudo no IFPR e faço o curso de TDS no processo de aprender CSS e HTML,
+        sou cristão, toco violino, patino, sou artista, atleta autointitulado. Uma das coisas que eu acho incrivel é desenhar, tocar algum instrumento. Gosto de sair de casa, a ultima vez que
+        combinamos de ir em um lugar andei 3 KM, foi bem divertido. Respeito todos os tipos de pessoas e preocuro sempre estár de bem com todo mundo, sempre aprendendo e evoluindo espiritualmente e como pessoa.
 
+    </h3>
+    
     
 
 
